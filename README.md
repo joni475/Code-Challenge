@@ -1,2 +1,2 @@
 # Code-Challenge
-freecodecamp cash register challenge
+freecodecamp challenge
