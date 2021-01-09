@@ -1,0 +1,11 @@
+ function smallest(arr, toReturn) {
+ var array = Math.min(...arr);
+ if(toReturn === "value") {
+ return array;
+ } if(toReturn === "index") {
+ return arr.indexOf(array);
+ }
+ }
+ smallest([1,2,3,4], "value"); //1
+ smallest([1,2,3,4], "index"); //0
+ 
